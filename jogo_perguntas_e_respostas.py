@@ -27,7 +27,7 @@ while True:
     escolha = int(input("Digite o número correspondente ao ser vivo escolhido: "))
 
     if escolha == 0:
-        print("Saindo do programa. Até mais!")
+        print("\nSaindo do programa. Até mais!\n\n")
         break
 
     elif escolha == 1:
@@ -203,19 +203,19 @@ while True:
                         print("O ser vivo que você escolheu é a Tartaruga!\n")
                         break
 
-                elif resposta == 'N':
-                    print("\nEle é Carnívoro?")
-                    resposta = input("Sim ou Não? (S/N): ").upper()
-
-                    if resposta == 'S':
-                        print("O ser vivo que você escolheu é o Crocodilo!\n")
-                        break
-
                     elif resposta == 'N':
-                        print("\nVamos usar a lógica para descobrir qual é o ser vivo que você escolheu...")
-                        print("Se ele não é um mamífero, nem uma ave, mas é um réptil, não tem casco e não é carnívoro...")
-                        print("Então só pode ser a Cobra-Cega! Lembrando que a cobra-cega é um anfíbio que não possui patas, tem pele úmida e vive enterrada.\n")
-                        break
+                        print("\nEle é Carnívoro?")
+                        resposta = input("Sim ou Não? (S/N): ").upper()
+
+                        if resposta == 'S':
+                            print("O ser vivo que você escolheu é o Crocodilo!\n")
+                            break
+
+                        elif resposta == 'N':
+                            print("\nVamos usar a lógica para descobrir qual é o ser vivo que você escolheu...")
+                            print("Se ele não é um mamífero, nem uma ave, mas é um réptil, não tem casco e não é carnívoro...")
+                            print("Então só pode ser a Cobra-Cega! Lembrando que a cobra-cega é um anfíbio que não possui patas, tem pele úmida e vive enterrada.\n")
+                            break
             
         else:
             print("\nResposta inválida. Por favor, responda com 'S' para sim ou 'N' para não.\n")
